@@ -4,4 +4,4 @@
 
 3. How about pushing into another remote branch that is not created yet?
    In that case, local branch name must match remote branch name or vice versa (push or pull)
-   and if not present, needs to be created.
+   and if not present, needs to be created. (Or really???)
