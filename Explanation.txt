@@ -1,5 +1,7 @@
 1. First, have to initialize the repo before adding remote using HTTPS.
-2. Git push origin main will not work if Remote branch is main but local branch is Master.
+2. Git push origin main will not work if Remote branch is 'main' but local branch is 'master'.
    Resolution is to rename the local branch as Main by "git branch -m main"
 
-3. How about pushing into another remote branch that not created yet? In that case, local branch name must match remote branch name and if not present, needs to be created.
+3. How about pushing into another remote branch that is not created yet?
+   In that case, local branch name must match remote branch name or vice versa (push or pull)
+   and if not present, needs to be created.
